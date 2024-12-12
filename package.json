@@ -1,0 +1,14 @@
+{
+  "name": "cumulative-final-project-evelynlr",
+  "version": "1.0.0",
+  "description": "An innovative eCommerce platform offering a seamless shopping experience with a wide range of products, secure payments, and fast delivery.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.16.1"
+  }
+}
