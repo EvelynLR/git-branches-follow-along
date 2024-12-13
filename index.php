@@ -1,7 +1,8 @@
+<html>
+
 <?php
 require_once("initialize.php");
 ?>
-<html>
     <h1>Testimonials</h1>
     <ul name="testimonials-list">
         
@@ -17,4 +18,14 @@ require_once("initialize.php");
 ?>
         
     </ul>
+
+<form action = "create.php" method = "POST">
+    <label for="feedback">Feedback:</label>
+    <input name="feedback" type="text">
+    <label for="rating">Rating:</label>
+    <input name="rating" type="number" min="0" max="5">
+    <input type="submit">
+</form>
+
+
 </html>
